@@ -9,6 +9,7 @@
 .Business .image-container {
   height: 16.66rem;
   margin-bottom: 1rem;
+  border-radius: 16px;
 }
 
 .Business h2 {
@@ -22,10 +23,15 @@
   justify-content: space-between;
 }
 
+.address a:link{
+  text-decoration: none;
+}
+
 .Business-information p {
   font-size: .88rem;
   font-weight: 300;
   line-height: 1rem;
+  
 }
 
 .Business-address {
